@@ -49,7 +49,7 @@ const forecast = (latitude, longitude, callback) => {
           `. It is currently ` +
           body.current.temperature +
           ` degrees out but feels like ` +
-          current.feelslike
+          body.current.feelslike
       );
     }
   });
